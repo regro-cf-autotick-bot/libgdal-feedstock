@@ -1,0 +1,14 @@
+hdf4:
+- '4.2'
+json_c:
+- '0.12'
+pin_run_as_build:
+  hdf4:
+    max_pin: x.x
+  json_c:
+    max_pin: x.x
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '2.7'
