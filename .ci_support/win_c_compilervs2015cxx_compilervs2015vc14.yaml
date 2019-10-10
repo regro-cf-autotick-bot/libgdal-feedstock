@@ -5,27 +5,29 @@ channel_sources:
 channel_targets:
 - conda-forge main
 curl:
-- '7.59'
+- '7.64'
 cxx_compiler:
 - vs2015
 expat:
 - '2.2'
 geos:
-- 3.6.2
+- 3.7.2
+geotiff:
+- 1.5.1
 hdf4:
 - '4.2'
 hdf5:
-- 1.10.2
+- 1.10.5
 jpeg:
 - '9'
 kealib:
-- 1.4.9
+- 1.4.10
 libnetcdf:
-- '4.6'
+- 4.6.2
 libpng:
-- 1.6.34
+- '1.6'
 libtiff:
-- 4.0.9
+- 4.0.10
 openjpeg:
 - '2.3'
 pin_run_as_build:
@@ -33,26 +35,22 @@ pin_run_as_build:
     max_pin: x
   expat:
     max_pin: x.x
-  geos:
+  geotiff:
     max_pin: x.x.x
   hdf4:
     max_pin: x.x
-  hdf5:
-    max_pin: x.x.x
   jpeg:
     max_pin: x
   kealib:
     max_pin: x.x
   libnetcdf:
-    max_pin: x.x
+    max_pin: x.x.x
   libpng:
     max_pin: x.x
   libtiff:
     max_pin: x
   openjpeg:
     max_pin: x.x
-  proj4:
-    max_pin: x.x.x
   sqlite:
     max_pin: x
   vc:
@@ -62,13 +60,13 @@ pin_run_as_build:
   xz:
     max_pin: x.x
 proj4:
-- 4.9.3
+- 6.1.1
 sqlite:
 - '3'
 vc:
 - '14'
 xerces_c:
-- 3.2.0
+- 3.2.2
 xz:
 - '5.2'
 zip_keys:
